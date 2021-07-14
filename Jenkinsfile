@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/justmeandopensource/playjenkins.git', branch:'topic-k8s-pipeline
+        git 'https://github.com/justmeandopensource/playjenkins.git'
       }
     }
 
